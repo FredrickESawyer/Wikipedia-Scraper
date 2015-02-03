@@ -1,0 +1,42 @@
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\bin\Debug\ConsultingLeadsPro.exe.config
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\bin\Debug\ConsultingLeadsPro.exe
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\bin\Debug\ConsultingLeadsPro.pdb
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\ConsultingLeadsPro.AboutBox.resources
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\Properties.Resources.resources
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\ConsultingLeadsPro.exe
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\ConsultingLeadsPro.pdb
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\bin\Debug\ConsultingLeadsPro.exe.manifest
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\bin\Debug\ConsultingLeadsPro.application
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\ConsultingLeadsPro.exe.manifest
+C:\Users\patrick.I27\Downloads\WSO_Power_Leads_Pro\WSO Power Leads Pro\C Code\obj\x86\Debug\ConsultingLeadsPro.application
+C:\Users\patrick.I27\Desktop\C Codes\C Code\bin\Debug\ConsultingLeadsPro.exe.config
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.exe
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.pdb
+C:\Users\patrick.I27\Desktop\C Codes\C Code\bin\Debug\ConsultingLeadsPro.exe.manifest
+C:\Users\patrick.I27\Desktop\C Codes\C Code\bin\Debug\ConsultingLeadsPro.application
+C:\Users\patrick.I27\Desktop\C Codes\C Code\bin\Debug\ConsultingLeadsPro.exe
+C:\Users\patrick.I27\Desktop\C Codes\C Code\bin\Debug\ConsultingLeadsPro.pdb
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.AboutBox.resources
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\Properties.Resources.resources
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.exe.manifest
+C:\Users\patrick.I27\Desktop\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.application
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\bin\Debug\ConsultingLeadsPro.exe.config
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.pdb
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\bin\Debug\ConsultingLeadsPro.exe.manifest
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\bin\Debug\ConsultingLeadsPro.application
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\bin\Debug\ConsultingLeadsPro.exe
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\bin\Debug\ConsultingLeadsPro.pdb
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.AboutBox.resources
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\Properties.Resources.resources
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.exe.manifest
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.application
+C:\Users\gbs 0001\Desktop\C Codes\C Codes\C Codes\C Code\obj\x86\Debug\ConsultingLeadsPro.exe

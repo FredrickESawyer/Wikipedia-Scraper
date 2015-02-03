@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D7AC4D36-A4FD-4CAE-9408-F2C970CA8990}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>ConsultingLeadsPro</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\patrick.I27\Desktop\CLP\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en-US</TargetCulture>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.5.8.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>64A37E83EF37DABC848C0C118C0A7382A699E378</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ConsultingLeadsPro_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>scraper_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.mshtml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsultingLeadsPro.Callbacks\EmailSendingCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Callbacks\ListViewTaskCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Callbacks\LogCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Callbacks\MapListViewAddCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Callbacks\ScrapeResultCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Callbacks\SimpleListViewAddCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Callbacks\TextBoxLogCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Callbacks\TsProgressCallback.cs" />
+    <Compile Include="ConsultingLeadsPro.Helpers\CsvHelper.cs" />
+    <Compile Include="ConsultingLeadsPro.Helpers\ListViewItemComparer.cs" />
+    <Compile Include="ConsultingLeadsPro.Helpers\ListViewItemDateComparer.cs" />
+    <Compile Include="ConsultingLeadsPro.Network\NetResult.cs" />
+    <Compile Include="ConsultingLeadsPro.Network\SmtpTaskManager.cs" />
+    <Compile Include="ConsultingLeadsPro.Network\Tuple.cs" />
+    <Compile Include="ConsultingLeadsPro.Network\UrlDownloader.cs" />
+    <Compile Include="ConsultingLeadsPro.Properties\Resources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro.Properties\Settings.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\AbstractMapScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\AbstractScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\BackpageScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\CraigslistScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\GoogleScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\GumtreeScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\IScrapeResult.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\KijijiScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\MapScrapeResult.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\SearchCategory.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\SimpleScrapeResult.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\YahooScraper.cs" />
+    <Compile Include="ConsultingLeadsPro.Scrapers\YellowPagesScraper.cs" />
+    <Compile Include="ConsultingLeadsPro\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\ActivationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\Campaign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\CampaignInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\CommonData.cs" />
+    <Compile Include="ConsultingLeadsPro\Editor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\EmailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\FontSize.cs" />
+    <Compile Include="ConsultingLeadsPro\LinkDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\ConsultingLeadsProSettings.cs" />
+    <Compile Include="ConsultingLeadsPro\Program.cs" />
+    <Compile Include="ConsultingLeadsPro\ProxyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\ProxyItem.cs" />
+    <Compile Include="ConsultingLeadsPro\ProxySettings.cs" />
+    <Compile Include="ConsultingLeadsPro\ReadyState.cs" />
+    <Compile Include="ConsultingLeadsPro\SearchableBrowser.cs" />
+    <Compile Include="ConsultingLeadsPro\SearchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\SelectionType.cs" />
+    <Compile Include="ConsultingLeadsPro\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultingLeadsPro\SmtpItem.cs" />
+    <Compile Include="ConsultingLeadsPro\TestEmailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConsultingLeadsPro.Properties\Resources.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultingLeadsPro\ActivationForm.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\AddCategory.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\CampaignInfoForm.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\Editor.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\EmailForm.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\LinkDialog.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\MainForm.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\ProxyForm.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\SearchDialog.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\SettingsForm.resources" />
+    <EmbeddedResource Include="ConsultingLeadsPro\TestEmailForm.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\PowerLeads.AboutBox.resources" />
+    <EmbeddedResource Include="Resources\PowerLeads.Editor.resources" />
+    <EmbeddedResource Include="Resources\PowerLeads.MainForm.resources" />
+    <EmbeddedResource Include="Resources\PowerLeads.Properties.Resources.resources" />
+    <EmbeddedResource Include="Resources\PowerLeads.ProxyForm.resources" />
+    <EmbeddedResource Include="Resources\PowerLeads.SearchDialog.resources" />
+    <EmbeddedResource Include="Resources\PowerLeads.SettingsForm.resources" />
+    <EmbeddedResource Include="Resources\PowerLeads.TestEmailForm.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ConsultingLeadsPro_TemporaryKey.pfx" />
+    <None Include="Resources\u17336117.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.mshtml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ecover.png" />
+    <Content Include="scraper_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
